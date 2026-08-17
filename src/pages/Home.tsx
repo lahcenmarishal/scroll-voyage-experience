@@ -25,6 +25,10 @@ import mice1 from "@/assets/mice1.jpg.asset.json";
 import mice2 from "@/assets/mice2.jpg.asset.json";
 import mongolfiere from "@/assets/mongolfiere.jpg.asset.json";
 import exp1 from "@/assets/exp1.jpeg.asset.json";
+import upP1 from "@/assets/up-p1.jpeg.asset.json";
+import upP2 from "@/assets/up-p2.jpeg.asset.json";
+import upP3 from "@/assets/up-p3.jpeg.asset.json";
+import upP4 from "@/assets/up-p4.jpeg.asset.json";
 import exp2 from "@/assets/exp2.jpeg.asset.json";
 import evenement2 from "@/assets/evenement-2.jpg.asset.json";
 import logoKoesio from "@/assets/koesio.png.asset.json";
@@ -479,8 +483,8 @@ function PageMice() {
           </div>
         </div>
         <div className="md:col-span-3 grid grid-cols-2 gap-4">
-          <img src={restaurant.url} alt="Soirée de gala au Maroc" className="aspect-[3/4] object-cover rounded-sm shadow-[var(--shadow-soft)] mt-8" />
-          <img src={evenement2.url} alt="Dîner événementiel dans le désert" className="aspect-[3/4] object-cover rounded-sm shadow-[var(--shadow-soft)]" />
+          <img src={upP1.url} alt="Dîner de gala aux chandelles dans la palmeraie" className="aspect-[3/4] object-cover rounded-sm shadow-[var(--shadow-soft)] mt-8" />
+          <img src={upP2.url} alt="Tapis rouge et lanternes à l'entrée d'un événement" className="aspect-[3/4] object-cover rounded-sm shadow-[var(--shadow-soft)]" />
         </div>
       </div>
     </PageShell>
@@ -594,7 +598,7 @@ function PageDestinations() {
       </div>
       <div className="mt-10 grid grid-cols-3 grid-rows-2 gap-2 md:gap-3 aspect-[3/1.6]">
         <div className="col-span-2 row-span-2 overflow-hidden rounded-sm shadow-[var(--shadow-elegant)]">
-          <img src={destCampNuit.url} alt="Campement marocain illuminé la nuit" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" loading="lazy" />
+          <img src={upP3.url} alt="Tente caïdale marocaine avec lanternes et salon berbère" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" loading="lazy" />
         </div>
         <div className="col-span-1 row-span-1 overflow-hidden rounded-sm shadow-[var(--shadow-elegant)]">
           <img src={destFireShow.url} alt="Spectacle de feu dans le désert" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" loading="lazy" />
@@ -616,7 +620,7 @@ function PageExperiences() {
     <PageShell num="09" kicker={t("experiences.kicker")} title={t("experiences.title")}>
       <div className="mb-10 grid grid-cols-2 md:grid-cols-3 gap-4">
         <div className="overflow-hidden rounded-sm shadow-[var(--shadow-elegant)] aspect-[4/3]">
-          <img src={exp1.url} alt="Quad dans le désert" className="w-full h-full object-cover" />
+          <img src={upP4.url} alt="Balade à cheval au coucher du soleil dans la palmeraie" className="w-full h-full object-cover" />
         </div>
         <div className="overflow-hidden rounded-sm shadow-[var(--shadow-elegant)] aspect-[4/3]">
           <img src={exp2.url} alt="Side-car vintage à Marrakech" className="w-full h-full object-cover" />
